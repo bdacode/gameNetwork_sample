@@ -1,0 +1,38 @@
+settings =
+{
+        orientation =
+        {
+                default = "portrait",
+				supported = { "landscapeLeft", "landscapeRight", "portrait","portraitUpsideDown" }
+        },
+		iphone =
+		{
+			plist =
+			{
+				UIApplicationExitsOnSuspend = false,
+		        CFBundleIconFile = "Icon.png",
+				FacebookAppID = "362281743887630",
+				CFBundleURLTypes =
+				            {
+				                {
+				                    CFBundleURLSchemes =
+				                    {
+				                        "fbxxxxxxxx",
+				                    }
+				                }
+				            },
+		        CFBundleIconFiles = {
+		           "Icon.png", 
+		           "Icon@2x.png", 
+		           "Icon-72.png", 
+				 },
+			},
+		},
+		android =
+	    {
+	        usesPermissions =
+	        {
+	            "android.permission.INTERNET",
+	        },
+	    }
+}
